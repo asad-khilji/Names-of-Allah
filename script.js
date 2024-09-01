@@ -53,7 +53,7 @@ const flashcards = [
     { question: "Al Muzill", answer: "The One who humiliates" },
     { question: "As Sayyed", answer: "The One who everyone needs" },
     { question: "Al Muqit", answer: "The Faciliator" },
-    { question: "Als Sami", answer: "The All Hearing" },
+    { question: "As Sami", answer: "The All Hearing" },
     { question: "Al Baseer", answer: "The All Seeing" },
     { question: "Al Aleem", answer: "The All Knowing" },
     { question: "Al Khabir", answer: "The All Aware" },
