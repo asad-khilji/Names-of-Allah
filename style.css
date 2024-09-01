@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -8,19 +12,26 @@ body {
     background-color: #f0f0f0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
 .flashcard {
     perspective: 1000px;
     cursor: pointer;
-    margin-top: -300px;
-
+    margin-bottom: 20px; /* Space between card and button */
 }
 
 .card-content {
-    width: 500px; /* Adjusted for better readability */
+    width: 500px;
     height: 200px;
     position: relative;
-    transition: transform 0.6s;
+    transition: transform 0.6s, box-shadow 0.3s;
     transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
 .flashcard.clicked .card-content {
@@ -40,6 +51,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 8px;
     background: #fff;
+    transition: background-color 0.3s;
 }
 
 .front {
@@ -51,8 +63,26 @@ body {
     transform: rotateY(180deg);
 }
 
-.btn {
-   border: none;
-   padding: 10px;
-   background-color: white;
+.flashcard:hover .card-content {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:focus {
+    outline: none;
+}
+
