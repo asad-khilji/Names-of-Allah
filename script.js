@@ -22,7 +22,7 @@ const flashcards = [
     { question: "Al Mussawir", answer: "The Fashioner" },
     { question: "Al Wahed", answer: "The One and Only" },
     { question: "Al Ahad", answer: "The Uniquely One" },
-    { question: "As Samad", answer: "The Eternal" },
+    { question: "As Samad", answer: "The Self Sufficient" },
     { question: "Al Ghafar", answer: "The One who covers up the sin" },
     { question: "Al Ghafoor", answer: "The One who covers up the sin" },
     { question: "Al Afuw", answer: "The One who erases the sin" },
