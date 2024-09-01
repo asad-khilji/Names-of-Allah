@@ -77,7 +77,7 @@ const flashcards = [
     { question: "Al Kabeer", answer: "The Grand" },
     { question: "Al Adheem", answer: "The Magnificant" },
     { question: "Al Qawiyy", answer: "The Most Strong" },
-    { question: "Al Mateen", answer: "The Most Firm" },
+    { question: "Al Mateen", answer: "The Firm" },
     { question: "Al Ali", answer: "The Most High" },
     { question: "Al A'la", answer: "The Most High" },
     { question: "Al Muta'al", answer: "The Most High" },
