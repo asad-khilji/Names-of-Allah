@@ -11,7 +11,7 @@ const flashcards = [
     { question: "Al Quddus", answer: "The Blessed" },
     { question: "As Subooh", answer: "The Perfect" },
     { question: "As Salam", answer: "The Giver of Peace" },
-    { question: "Al Mumin", answer: "The Give of Faith" },
+    { question: "Al Mumin", answer: "The Giver of Faith" },
     { question: "Al Muhaymin", answer: "The Dominant" },
     { question: "Al Aziz", answer: "The All Mighty" },
     { question: "Al Jabbar", answer: "The Compeller" },
