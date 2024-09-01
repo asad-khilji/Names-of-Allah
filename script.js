@@ -68,7 +68,7 @@ const flashcards = [
     { question: "Al Qadeer", answer: "The All Powerful" },
     { question: "Al Muqtadir", answer: "The All Powerful" },
     { question: "Al Jameel", answer: "The Most Beautiful" },
-    { question: "Al Siteer", answer: "The Concealer" },
+    { question: "As Siteer", answer: "The Concealer" },
     { question: "Ash Shakir", answer: "The Appreciative" },
     { question: "Ash Shakoor", answer: "The Appreciative" },
     { question: "Al Wakeel", answer: "The Disposer of Affairs" },
