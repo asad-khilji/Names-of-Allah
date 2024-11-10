@@ -106,6 +106,7 @@ const flashcards = [
     { question: "Al Muhyee", answer: "The Giver of Life" },
     { question: "Al Mumeet", answer: "The Giver of Death" },
     { question: "Al Qahhar", answer: "The Overwhelming" },
+    {question: "Al Zuntiqam", answer: "The Avenger"},
     // Add more questions up to 100
 ];
 
